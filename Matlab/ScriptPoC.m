@@ -1,9 +1,7 @@
 %% Opening files
 clearvars -except A structCreated j
-load('D:\Hugo(D)\Renault\Active pictures y audios\Ralenti AC On Run 1.mat');
+load('FileName');
 
-%% Signal_0 
-%Names 1-5 BT:D,D1,F,K,L
 
 Fs = 1/Signal_0.x_values.increment; 
 time = 0:1/Fs:(Signal_0.x_values.number_of_values-1)/Fs;
